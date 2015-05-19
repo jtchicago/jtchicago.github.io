@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Find Cooler Stuff</title>
-	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+	<head>
+		<title>Find Cooler Stuff</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
 <body>
-	<h1>Find <em>Cooler</em> Stuff</h1>
-	<p>This is the business of JT.</p>
+
+	<img src="images/logo.jpg" alt="logo" title="logo">
+	<header>
+		<h1 id="slogan">Find Something <em>Special</em>. Fast.</h1>
+		<p id="tagline">From Apparel to Zaxes</p> <!--assignment puts in the body but my design has it in the header-->
+		<img class="centered_images" src="images/how_this_works.jpg" alt="how_this_works" title="how_this_works">
+	</header>
+
+	<p>Frustrated with the same old products, designs and brands?  Looking for something different?</p>
+	<p>Find special, niche and uncommon products from around the world:</p>
+		<ul>
+			<li>Artisan, Small-Batch & Limited Production</li>
+			<li>Custom Products</li>
+			<li>Gifts Like No Other</li>
+			<li>Innovative Designs</li>
+			<li>International Finds</li>
+			<li>Rare, Scarce, One-of-a-Kind</li>
+			<li>Special Function/ Purpose Products</li>
+		</ul>
+
+	<form> <!-- I also wanted to try to do a contact form, so I added it even though it's duplicative of the email link -->
+		<h4><a href="mailto:jaytchicago@yahoo.com? subject=user email">Contact</a>: Please share company suggestions, questions, feedback, etc.</h4>
+			<label for="firstname">First Name:</label>
+			<input type="text" name="firstname"><br>
+			<label for="email">Email:</label>
+			<input type="email" name="email"><br>
+			<textarea cols="30" rows="10" placeholder="What's on your mind?"></textarea><br>
+			<input type="submit">
+	</form>
+
 </body>
 </html>
