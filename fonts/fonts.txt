@@ -1,0 +1,75 @@
+From Google Fonts:
+
+arial, monospace;
+
+
+SANS-SERIF
+
+<link href='http://fonts.googleapis.com/css?family=Cambay:700' rel='stylesheet' type='text/css'>
+font-family: 'Cambay', sans-serif;
+
+<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+font-family: 'Nunito', sans-serif;
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+font-family: 'Montserrat', sans-serif;
+
+
+
+Maybe:
+good.  a little too "soft" to match with a serif font?-  <link href='http://fonts.googleapis.com/css?family=Alef:700' rel='stylesheet' type='text/css'>
+font-family: 'Alef', sans-serif;
+good but a little plain and  thin-  <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+font-family: 'ABeeZee', sans-serif;
+good but thin-  <link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+font-family: 'Rosario', sans-serif;
+not distinctive- <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
+font-family: 'Cabin', sans-serif;
+
+No:
+too heavy-  <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+font-family: 'Archivo Black', sans-serif;
+thin-  <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+font-family: 'Arimo', sans-serif;
+<link href='http://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+font-family: 'Candal', sans-serif;
+<link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css'>
+font-family: 'Share', cursive;
+<link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
+font-family: 'Revalia', cursive;
+
+
+SERIF
+
+<link href='http://fonts.googleapis.com/css?family=Halant' rel='stylesheet' type='text/css'>
+font-family: 'Halant', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+font-family: 'Arvo', serif;
+
+
+<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+font-family: 'Sanchez', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Buenard' rel='stylesheet' type='text/css'>
+font-family: 'Buenard', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+font-family: 'Lora', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
+font-family: 'Balthazar', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Average' rel='stylesheet' type='text/css'>
+font-family: 'Average', serif;
+
+<link href='http://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
+font-family: 'Laila', serif;
+
+
+
+
