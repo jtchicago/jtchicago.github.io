@@ -1,22 +1,22 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: url(../images/needle_in_a_haystack.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: top;
+	background-size: cover;
 	font-family: calibri, arial, monospace;
 	font-size: 20px;
 	color: rgba(0,0,0,.7);
-	line-height: 1.5em;
-	padding-left: 200px;
 }
 
 header {
 	font-family: 'Cambay', sans-serif;
 	font-weight: bold;
 	color: rgba(0,0,0,.8);
-	padding-bottom: 40px;
+	margin-bottom: 2em;
 }
-
+section {
+	
+}
 h2 {
 	font-size: 1.5em;
 }
