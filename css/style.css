@@ -1,21 +1,22 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background: url(../images/needle_in_a_haystack.jpg);
+	/*background: url(../images/needle_in_a_haystack.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 	font-family: calibri, arial, monospace;
 	font-size: 18px;
 	color: rgba(0,0,0,.7);
 }
 
 header {
-	background-color: navy;
-	font-family: 'Nunito', sans-serif;
-	font-size: 1.5em;
+	background-color: rgb(0,62,89);
+	font-family: 'Alef', sans-serif;
+	font-size: 1.2em;
 	font-weight: bold;
 	color: rgba(255,255,255,.99);
 	margin-bottom: 2em;
 }
+
 section {
 	
 }
@@ -39,26 +40,32 @@ strong{
 }
 
 footer {
-	background-color: navy;
+	background-color: rgb(0,62,89);
 	font-size: 12px;
 	color: rgba(255,255,255,.99);
 	text-align: center;
 	padding: 1em 0;
 }
 
-#cool-image{
+#contact{
 
 }
 
-#contact{
-
+#how-it-works{
+	background: url(../images/needle_in_a_haystack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #launch-signup{
 
 }
 
-#top-bar{
+#main-nav{
+
+}
+
+#resources{
 
 }
 
@@ -69,18 +76,25 @@ footer {
 
 #slogan{
 	text-align: center;
+	padding-bottom: .3em;
 }
 
 #tagline{
+	font-size: 18px;
+	font-style: italic;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
+#top-bar{
 
-.centered-images{
+}
+
+/*.centered-images{
 	display: block;
 	margin-left: auto;
-	margin-right: auto; 
-}
+	margin-right: auto;
+*/
 
 
 /*
