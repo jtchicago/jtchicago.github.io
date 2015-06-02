@@ -11,6 +11,14 @@ body {
 	margin-left: 3em;
 }
 
+columns {
+
+	float
+	padding
+	width
+
+}
+
 header {
 	background-color: rgb(0,62,89);
 	font-family: 'Cambay', sans-serif;
@@ -52,6 +60,7 @@ footer {
 }
 
 #ad-block{
+	clear: both;
 
 }
 
@@ -59,26 +68,50 @@ footer {
 
 }
 
+#featured-companies{
+	clear: both;
+
+}
+
+#how-button{
+	
+
+}
+
 #how-it-works{
+	float: left;
 	background: url(../images/needle_in_a_haystack.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 2em;
+}
+
+#logo{
+
+	padding: .5em;
 }
 
 #main-nav {
+	float: inherit;
+
+}
+
+#popular{
+
 
 }
 
 #resources{
+	clear: both;
 
 }
 
 #right-block{
+	float: right;
 
 }
 
 #search{
-
 
 }
 
@@ -105,6 +138,8 @@ footer {
 #top-bar{
 
 }
+
+https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
 
 /*.centered-images{
 	display: block;
