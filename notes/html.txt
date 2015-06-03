@@ -1,4 +1,15 @@
 
+          <ul><!-- links horizontal -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="contact.html">Contact (company suggestions, questions, feedback, help, etc.)</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="signin.html">Sign In/Out</a></li>
+        </ul>
+        
+
 Unit 5- layouts
 
 

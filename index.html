@@ -4,221 +4,224 @@
 		<meta charset="utf-8">
 		<title>Find Cooler Stuff</title>
 		<link href='http://fonts.googleapis.com/css?family=Cambay:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	
 	<body>
-		
-		<header>
-			<section id="top-bar">
+		<div id="container">
+			<header>
 				<img id="logo" src="images/logo.jpg" alt="logo" title="logo">
 				<h1 id="slogan">Find Something Special.  <em>Fast</em>.</h1>
 				<p id="tagline">If it's cool, we find it.</p>
 				<!--<p>From Apparel Accessories to Zaxes</p><-->
-			</section>
-		</header>
-		
+			</header>
 
-		<aside id="right-block">
-		    <nav id="main-nav">
-			    <ul><!-- links horizontal -->
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="account.html">Account</a></li>
-					<li><a href="contact.html">Contact (company suggestions, questions, feedback, help, etc.)</a></li>
-					<li><a href="faqs.html">FAQs</a></li>
-					<li><a href="join.html">Join</a></li>
-					<li><a href="signin.html">Sign In/Out</a></li>
-				</ul>
-				<p>**** "Follow Us" social icons lined up below the links above</p>
-				<form>
-					<label for="email">Newsletter:</label>
-					<input type="email" name="email" placeholder="email address">
-					<input type="submit">
-				</form>
-			</nav>
-
-			<nav id="resources"><!-- horizontal tabs ala overlapping manilla folder tabs -->
-				<p>Resources</p>
-				<ul>
-					<li>Today’s Finds</li>
-					<li>Podcasts</li>
-					<li>Product Recommendations</li>
-					<li>Sites We Like</li>
-					<li>Archives</li>
-				</ul>
-		    </nav>
+			
+			<div class="clearfix">
+				<div class="column" id="column1">
+					<section id="how-it-works"><!-- top left. background image with how it works icon linking to explanation-->
+						<img id="how-button" src="images/how_this_works.jpg" alt="how this works" title="how_this_works">
+						<p><strong>Frustrated with the same old</strong> products, designs and brands?  Looking for something different?</p>
+						<p>We help you quickly find special, niche and uncommon products from around the world:</p>
+							<ul><!-- link these to company examples -->
+								<li>Artisan, Small-Batch or Limited Production</li>
+								<li>Custom Products</li>
+								<li>Environmentally, socially or financially responsible</li>
+								<li>Gifts that are Special, Uncommon or Unique</li>
+								<li>Hard-to-find or discontinued items</li>
+								<li>Innovative Aesthetic and Functional Designs, materials or ingredients</li>
+								<li>International Finds</li>
+								<li>Rare, Scarce, One-of-a-Kind</li>
+								<li>Special Function/ Purpose Products</li>
+								<li>Uncommon, even unique materials, ingredients, colors, etc.</li>
+							</ul>
+						<nav>
+							<a href="how-it-works.html">How It Works</a>
+						</nav>
+					</section>
 
 
-			<nav id="ad-block">
-				<!-- how will this work?-->
-				<placeholder>ADS GO HERE</placeholder>
-
-		    </nav>
-
-		</aside>
+					<section id="popular"><!-- list of live links to popular search terms/ categories...how to do this?-->
+						<p>See all popular products/ searches/ companies <a href="popular-archive.html">here</a>.</p>
+					</section>
+				</div>
 
 
-
-		<main><!-- all of this needs to be above the fold (at least start above the fold) -->
-
-			<section id="how-it-works"><!-- top left. background image with how it works icon linking to explanation-->
-				<img id="how-button" src="images/how_this_works.jpg" alt="how this works" title="how_this_works">
-				<p><strong>Frustrated with the same old</strong> products, designs and brands?  Looking for something different?</p>
-				<p>We help you quickly find special, niche and uncommon products from around the world:</p>
-					<ul><!-- link these to company examples -->
-						<li>Artisan, Small-Batch or Limited Production</li>
-						<li>Custom Products</li>
-						<li>Environmentally, socially or financially responsible</li>
-						<li>Gifts that are Special, Uncommon or Unique</li>
-						<li>Hard-to-find or discontinued items</li>
-						<li>Innovative Aesthetic and Functional Designs, materials or ingredients</li>
-						<li>International Finds</li>
-						<li>Rare, Scarce, One-of-a-Kind</li>
-						<li>Special Function/ Purpose Products</li>
-						<li>Uncommon, even unique materials, ingredients, colors, etc.</li>
-					</ul>
-				<nav>
-					<a href="how-it-works.html">How It Works</a>
-				</nav>
-			</section>
+				<div class="column" id="column2">
+					<section id="search"><!-- center screen. search box with optional filters below that users can include -->
+						<form action:"http://placeholderdomain.com...">
+							<input type="text" name="search" placeholder="What would you like?">
+							<input type="submit" value="Search"/>
+						</form>
+						<p>Optional search inputs (use any/ all) Who?, Why?, Design?, When?, Where?, Functionality?</p>
+							<!-- how to set these up? -->
+					</section>
 
 
-			<section id="search"><!-- center screen. search box with optional filters below that users can include -->
-				<form action:"http://placeholderdomain.com...">
-					<input type="text" name="search" placeholder="What would you like?">
-					<input type="submit" value="Search"/>
-				</form>
-				<p>Optional search inputs (use any/ all) Who?, Why?, Design?, When?, Where?, Functionality?</p>
-					<!-- how to set these up? -->
-			</section>
+					<section id="featured-companies"><!-- table of companies featured.  how to make this so it can be updated with newly featured companies? (Excel upload, etc.?)-->
+						<table border=1>
+							<caption>Featured Companies: Out-of-the-Ordinary New & Vintage Eyewear</caption>
+							<tr>
+								<th>Company</th>
+								<th>Search Match</th>
+								<th>Popularity & Comments</th>
+								<th>Products Overview</th>
+								<th>What's Special</th>
+								<th>Other Details (shipping, payment methods, etc.</th>
+								<th>Add Your Comments or Rating</th>
+							</tr>
+							<tr>	
+								<td>LookOcchiali.it</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>MassadaEyewear.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>FetchEyewear.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>MorgenthalFrederics.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>SelimaOptique.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>EyeQGlasses.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>EyeglassBoy.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>EyeglassesWarehouse.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>
+							<tr>	
+								<td>WoodstockEyewear.com</td>
+								<td>blah</td>
+								<td>blah, blah</td>
+								<td>blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah, blah, blah</td>
+							</tr>	
+						</table>
+					</section>
+				</div>
+
+			
+				<aside class="column" id="column3">
+				    <nav id="main-nav">
+							<a class="nav-links" href="index.html">Home</a>
+							<a class="nav-links" href="about.html">About</a>
+							<a class="nav-links" href="account.html">Account</a>
+							<a class="nav-links" href="contact.html">Contact (company suggestions, questions, feedback, help, etc.)</a>
+							<a class="nav-links" href="faqs.html">FAQs</a>
+							<a class="nav-links" href="join.html">Join</a>
+							<a class="nav-links" href="signin.html">Sign In/Out</a>
+					</nav>
 
 
-			<section id="popular"><!-- list of live links to popular search terms/ categories...how to do this?-->
-				<p>See all popular products/ searches/ companies <a href="popular-archive.html">here</a>.</p>
+					<nav id="follow-us">
+						<p>**** "Follow Us" social icons lined up below the links above</p>
+						<form>
+							<label for="email">Newsletter:</label>
+							<input type="email" name="email" placeholder="email address">
+							<input type="submit">
+						</form>
+					</nav>
 
-			</section>
+
+					<nav id="resources"><!-- horizontal tabs ala overlapping manilla folder tabs -->
+						<p>Resources</p>
+						<ul>
+							<li> <a href="todays-finds.html">Today’s Finds</a></li>
+							<li> <a href="podcasts.html">Podcasts</a></li>
+							<li> <a href="prod-recs.html">Product Recommendations</a></li>
+							<li> <a href="sites-we-like.html">Sites We Like</a></li>
+							<li> <a href="archives.html">Archives</a></li>
+						</ul>
+				    </nav>
 
 
-			<section id="featured-companies"><!-- table of companies featured.  how to make this so it can be updated with newly featured companies? (Excel upload, etc.?)-->
-				<table border=1>
-					<caption>Featured Companies: Out-of-the-Ordinary New & Vintage Eyewear</caption>
-					<tr>
-						<th>Company</th>
-						<th>Search Match</th>
-						<th>Popularity & Comments</th>
-						<th>Products Overview</th>
-						<th>What's Special</th>
-						<th>Other Details (shipping, payment methods, etc.</th>
-						<th>Add Your Comments or Rating</th>
-					</tr>
-					<tr>	
-						<td>LookOcchiali.it</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>MassadaEyewear.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>FetchEyewear.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>MorgenthalFrederics.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>SelimaOptique.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>EyeQGlasses.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>EyeglassBoy.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>EyeglassesWarehouse.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>
-					<tr>	
-						<td>WoodstockEyewear.com</td>
-						<td>blah</td>
-						<td>blah, blah</td>
-						<td>blah, blah, blah</td>
-						<td>blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah</td>
-						<td>blah, blah, blah, blah, blah, blah</td>
-					</tr>	
-				</table>
-			</section>
+					<nav id="ad-block">
+						<!-- how will this work?-->
+						<placeholder>ADS GO HERE</placeholder>
+				    </nav>
+				</aside>
+			</div>
+
+			<footer>
+				&copy; 2015 Jay Trenary.  All Rights Reserved.
+			</footer>
+		</div>
 
 
 
-			<section id="signup-launch"><!-- center screen box for people to sign up to be notified of the site's launch. should pop up when people come to the site-->
+
+			<!--
+			<section id="signup-launch">
+				<placeholder>center screen box for people to sign up to be notified of the site's launch. should pop up when people come to the site</placeholder> 
 				<p>Here we come!  Signup to be notified when we launch (and to receive our free guide to help develop gift ideas)</p>
 			</section>
+			-->
 
 
-			<section id="signup-confirmation"><!-- center screen box for people to sign up to be notified of the site's launch-->
-
+			<!--
+			<section id="signup-confirmation">
+			<placeholder>Center screen box for people to sign up to be notified of the site's launch</placeholder>
 			</section>
-
-
-						
-		</main>			
+			-->
 
 
 			
-
-			
-
-		<footer>
-			&copy; 2015 Jay Trenary.  All Rights Reserved.
-		</footer>
-
+		</div>
 	</body>
 </html>

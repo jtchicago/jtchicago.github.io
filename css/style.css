@@ -1,4 +1,4 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing: border-box; }
 body {
 	/*background: url(../images/needle_in_a_haystack.jpg);
 	background-repeat: no-repeat;
@@ -7,17 +7,10 @@ body {
 	font-size: 18px;
 	font-weight: 100;
 	color: rgb(0,0,0);
-	margin-right: 3em;
-	margin-left: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
 }
 
-columns {
-
-	float
-	padding
-	width
-
-}
 
 header {
 	background-color: rgb(0,62,89);
@@ -26,12 +19,32 @@ header {
 	font-weight: 400;
 	letter-spacing: .06em;
 	color: rgba(255,255,255,.99);
-	margin-bottom: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
-section {
-	
+a{
+
 }
+
+aside{
+	float: right;
+	display: block;
+	width: 200px;
+
+}
+
+
+
+footer{
+	clear: both;
+	background-color: rgb(0,62,89);
+	font-size: 12px;
+	color: rgba(255,255,255,.99);
+	text-align: center;
+	padding: 1em 0;
+}
+
 
 h2 {
 	font-size: 1.5em;
@@ -42,8 +55,24 @@ h3 {
 	font-size: 1.5em;
 }
 
+
 h4 {
 	font-style: italic;
+}
+
+nav{
+
+
+}
+
+nav a {
+	display: block;
+
+}
+
+section {
+	
+	
 }
 
 strong{
@@ -51,82 +80,154 @@ strong{
 	font-variant: small-caps;
 }
 
-footer {
-	background-color: rgb(0,62,89);
-	font-size: 12px;
-	color: rgba(255,255,255,.99);
-	text-align: center;
-	padding: 1em 0;
+/* .clearfix{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+} */
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
+
+.column{
+	float: left;
+	padding: 0em;
+}
+
+.nav-links{
+	
+}
+
 
 #ad-block{
 	clear: both;
 
 }
 
+#column1{
+	float: left;
+	width: 811px;
+
+
+}
+
+
+#column2{
+	float: left;
+	width: 811px;
+
+
+}
+
+
+#column3{
+	float: right;
+	width: 200px;
+
+}
+
+
 #contact{
 
 }
 
-#featured-companies{
-	clear: both;
+
+#container {
+
 
 }
+
+
+
+#featured-companies{
+	padding: 1em;
+
+
+}
+
+
+#follow-us{
+	padding-bottom: 2em;
+
+}
+
 
 #how-button{
-	
+
 
 }
 
+
 #how-it-works{
-	float: left;
 	background: url(../images/needle_in_a_haystack.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 811px 400px;
 	padding: 2em;
 }
 
-#logo{
 
-	padding: .5em;
+#logo{
+	float: left;
+	padding-left: .5em;
+	
 }
+
 
 #main-nav {
-	float: inherit;
+
+	padding-top: 1em;
+	padding-bottom: 2em;
 
 }
+
 
 #popular{
+	padding: 1em;
 
 
 }
+
 
 #resources{
-	clear: both;
+	
+	padding-bottom: 2em;
 
 }
 
-#right-block{
-	float: right;
-
-}
 
 #search{
+	background-image: url(../images/sky_background.jpg);
+	background-repeat: no-repeat;
+	background-size: 811px 400px;
+	padding: 2em;
 
 }
+
 
 #signup-launch{
 
 }
 
+
 #signup-confirmation{
 
 }
+
 
 #slogan{
 	text-align: center;
 	padding-bottom: .3em;
 }
+
 
 #tagline{
 	font-size: 18px;
@@ -135,9 +236,7 @@ footer {
 	padding-bottom: 1em;
 }
 
-#top-bar{
 
-}
 
 https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
 
