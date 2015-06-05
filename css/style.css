@@ -27,7 +27,7 @@ a{
 
 }
 
-aside{
+aside {
 	float: right;
 	display: block;
 	width: 200px;
@@ -89,6 +89,12 @@ strong{
 } */
 
 
+**********
+
+separator language
+
+**********
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -107,6 +113,10 @@ strong{
 	
 }
 
+.nav-links a {
+
+
+}
 
 #ad-block{
 	clear: both;
@@ -115,7 +125,7 @@ strong{
 
 #column1{
 	float: left;
-	width: 811px;
+	width: 40%;
 
 
 }
@@ -123,7 +133,7 @@ strong{
 
 #column2{
 	float: left;
-	width: 811px;
+	width: 40%;
 
 
 }
@@ -131,7 +141,9 @@ strong{
 
 #column3{
 	float: right;
-	width: 200px;
+	width: 20%;
+	padding-left: 3em;
+	text-align: justify;
 
 }
 
@@ -146,9 +158,13 @@ strong{
 
 }
 
+#fast{
+	font-style: italic;
+}
 
 
 #featured-companies{
+	clear: both;
 	padding: 1em;
 
 
@@ -174,6 +190,9 @@ strong{
 	padding: 2em;
 }
 
+#how-it-works img{
+
+}
 
 #logo{
 	float: left;
@@ -208,7 +227,7 @@ strong{
 	background-image: url(../images/sky_background.jpg);
 	background-repeat: no-repeat;
 	background-size: 811px 400px;
-	padding: 2em;
+	padding: 7em;
 
 }
 
