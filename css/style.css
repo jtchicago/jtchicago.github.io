@@ -23,14 +23,8 @@ header {
 	padding-bottom: 1em;
 }
 
-a{
 
-}
-
-aside {
-	float: right;
-	display: block;
-	width: 200px;
+a {
 
 }
 
@@ -60,40 +54,30 @@ h4 {
 	font-style: italic;
 }
 
-nav{
+
+nav {
 
 
 }
+
 
 nav a {
 	display: block;
 
 }
 
+
 section {
 	
 	
 }
 
-strong{
+
+strong {
 	font-size: 1.2em;
 	font-variant: small-caps;
 }
 
-/* .clearfix{
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
-} */
-
-
-**********
-
-separator language
-
-**********
 
 .clearfix:after {
   visibility: hidden;
@@ -104,10 +88,27 @@ separator language
   height: 0;
 }
 
-.column{
-	float: left;
-	padding: 0em;
+#container {
+
+
 }
+
+
+
+/***********
+	ASIDE
+***********/
+
+aside {
+	background-color: gray;
+	float: right;
+	display: block;
+	padding: 2em;
+	width: 20%;
+	height: 1000px
+
+}
+
 
 .nav-links{
 	
@@ -123,81 +124,13 @@ separator language
 
 }
 
-#column1{
-	float: left;
-	width: 40%;
-
-
-}
-
-
-#column2{
-	float: left;
-	width: 40%;
-
-
-}
-
-
-#column3{
-	float: right;
-	width: 20%;
-	padding-left: 3em;
-	text-align: justify;
-
-}
-
-
 #contact{
 
 }
 
-
-#container {
-
-
-}
-
-#fast{
-	font-style: italic;
-}
-
-
-#featured-companies{
-	clear: both;
-	padding: 1em;
-
-
-}
-
-
 #follow-us{
 	padding-bottom: 2em;
 
-}
-
-
-#how-button{
-
-
-}
-
-
-#how-it-works{
-	background: url(../images/needle_in_a_haystack.jpg);
-	background-repeat: no-repeat;
-	background-size: 811px 400px;
-	padding: 2em;
-}
-
-#how-it-works img{
-
-}
-
-#logo{
-	float: left;
-	padding-left: .5em;
-	
 }
 
 
@@ -209,13 +142,6 @@ separator language
 }
 
 
-#popular{
-	padding: 1em;
-
-
-}
-
-
 #resources{
 	
 	padding-bottom: 2em;
@@ -223,24 +149,59 @@ separator language
 }
 
 
-#search{
-	background-image: url(../images/sky_background.jpg);
-	background-repeat: no-repeat;
-	background-size: 811px 400px;
-	padding: 7em;
+
+/***********
+BOTTOM HALF
+***********/
+
+
+#bottom-half {
+	clear: both;
+	width: 80%;
+	height: 500px;
 
 }
 
 
-#signup-launch{
+#featured-companies{
+	background-color: rgb(62, 147, 125);
+	text-align: justify;
+	padding: 1em;
+	height: 500px;
+	width: 70%;
+	float: left;
 
 }
 
 
-#signup-confirmation{
+#popular{
+	background: rgb(30, 240, 150);
+	padding: 1em;
+	text-align: justify;
+	height: 500px;
+	width: 30%;
+	float: left;
 
 }
 
+
+
+
+/***********
+Header
+***********/
+
+
+#fast{
+	font-style: italic;
+}
+
+
+#logo{
+	float: left;
+	padding-left: .5em;
+	
+}
 
 #slogan{
 	text-align: center;
@@ -257,7 +218,70 @@ separator language
 
 
 
+/***********
+Top half
+***********/
+
+#how-button{
+
+
+}
+
+
+#how-it-works{
+	background: url(../images/needle_in_a_haystack.jpg);
+	background-repeat: no-repeat;
+	background-size: 811px 400px;
+	text-align: justify;
+	padding: 2em;
+	height: 500px;
+	width: 40%;
+	float: left;
+}
+
+#how-it-works img{
+
+}
+
+
+#search{
+	background-image: url(../images/sky_background.jpg);
+	background-repeat: no-repeat;
+	background-size: 811px 400px;
+	padding: 7em;
+	height: 500px;
+	width: 60%;
+	float: left;
+
+}
+
+
+#top-half {
+	height: 500px;
+	width: 80%;
+}
+
+
+
+
 https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
+
+/*.clearfix{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}*/
+
+/*#signup-launch{
+
+}
+
+
+#signup-confirmation{
+
+}*/
 
 /*.centered-images{
 	display: block;
