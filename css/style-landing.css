@@ -13,3 +13,13 @@ body {
 }
 
 
+header {
+	background: rgb(0,62,89);
+	font-family: 'Cambay', sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	letter-spacing: .06em;
+	color: rgba(255,255,255,.99);
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
