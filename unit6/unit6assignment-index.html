@@ -1,44 +1,179 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Column Layout</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>He Said She Said</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../unit6/unit6assignment-style.css">
 	</head>
 
 	<body>
-		<div id="container">
-
-			<header>
-				<h1>
-					My Awesome Website
-				</h1>
+	<img id="logo" src="../unit6/logo-hesaid-shesaid.jpg" alt="logo" title="logo">
+		<div id="wrapper">
+			<header class="clearfix">
+				<nav>
+				    <a href="#">About</a>
+					<a href="#">Archive</a>
+					<a href="#">Contact</a>
+					<a href="#">The Authors</a>
+					<div id="updates">
+						<!--<p>Updates:</p>-->
+						<form>
+							<input type="email" name="email" placeholder="Share email for updates">
+							<input type="submit">
+						</form>
+					</div>
+				</nav>
 			</header>
 
-			<nav class="clearfix">
-		    <a href="#">Home</a>
-				<a href="#">About</a>
-				<a href="#">Services</a>
-				<a href="#">Contact us</a>
-			</nav>
+
 			
-			<div class="clearfix">	
-				<div class="column" id="column1">	
-					<h2>Column1</h2>			
-					<p>Phasellus in condimentum dui. Donec malesuada ultricies arcu. Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae. Pellentesque vulputate felis vel mi faucibus porttitor. Sed ac dui quis nisi auctor molestie eu et dui. Proin iaculis mattis nisi id vestibulum. Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
-				</div>	
+			<div class="clearfix" id="content-ongoing">
+				<div class="column" id="column-he-said">
+					<h2>He Said</h2>	
+					<section class="post-he-said">
+						<p>Phasellus in condimentum dui. Donec malesuada ultricies arcu.</p>
+						<p>Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae.</p>
+						<p>Pellentesque vulputate felis vel mi faucibus porttitor.</p>
+						<p>Sed ac dui quis nisi auctor molestie eu et dui.</p>
+						<p>Proin iaculis mattis nisi id vestibulum.</p>
+						<p>Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
+					</section>
 
-	        	<div class="column" id="column2">
-	        		<h2>Column2</h2>			
-					<p>Donec eleifend augue mi, nec interdum ante vehicula in. Proin volutpat ante sapien, eget tincidunt augue condimentum vel. Quisque ac imperdiet sem. Ut malesuada tellus lectus, sed tempor nibh imperdiet sodales. Nulla porta, erat nec rutrum pellentesque, eros lectus condimentum metus, eget tincidunt diam massa ut eros. Sed facilisis turpis magna, et aliquam tellus</p> 
-	        	</div>
+					<section class="post-he-said">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Nullam imperdiet vitae leo sed congue.</p>
+						<p>Donec vitae nisi pharetra enim dapibus accumsan.</p>
+						<p>Donec non egestas velit.</p>
+						<p>Mauris sagittis, nisl sed consequat rhoncus, orci ligula porttitor lectus, sed luctus metus libero quis quam.</p>
+						<p>Suspendisse ornare tempus posuere.</p>
+						<p>Maecenas ut diam ut enim interdum tincidunt at ac sapien.</p>					
+					</section>
 
-	        	<div class="column" id="column3">
-	        		<h2>Column3</h2>	      
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet vitae leo sed congue. Donec vitae nisi pharetra enim dapibus accumsan. Donec non egestas velit. Mauris sagittis, nisl sed consequat rhoncus, orci ligula porttitor lectus, sed luctus metus libero quis quam. Suspendisse ornare tempus posuere. Maecenas ut diam ut enim interdum tincidunt at ac sapien.</p>
+					<section class="post-he-said">
+						<p>Donec eleifend augue mi, nec interdum ante vehicula in.</p>
+						<p>Proin volutpat ante sapien, eget tincidunt augue condimentum vel.</p>
+						<p>Quisque ac imperdiet sem.</p>
+						<p>Ut malesuada tellus lectus, sed tempor nibh imperdiet sodales.</p>
+						<p>Nulla porta, erat nec rutrum pellentesque, eros lectus condimentum metus, eget tincidunt diam massa ut eros.</p>
+						<p>Sed facilisis turpis magna, et aliquam tellus</p>				
+					</section>
+					</section>
+				</div>
+
+
+				<div class="column" id="column-she-said">
+	        		<h2>She Said</h2>
+		        	<section class="post-she-said">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Nullam imperdiet vitae leo sed congue.</p>
+						<p>Donec vitae nisi pharetra enim dapibus accumsan.</p>
+						<p>Donec non egestas velit.</p>
+						<p>Mauris sagittis, nisl sed consequat rhoncus, orci ligula porttitor lectus, sed luctus metus libero quis quam.</p>
+						<p>Suspendisse ornare tempus posuere.</p>
+						<p>Maecenas ut diam ut enim interdum tincidunt at ac sapien.</p>
+		        	</section>
+				
+					<section class="post-she-said">
+						<p>Donec eleifend augue mi, nec interdum ante vehicula in.</p>
+						<p>Proin volutpat ante sapien, eget tincidunt augue condimentum vel.</p>
+						<p>Quisque ac imperdiet sem.</p>
+						<p>Ut malesuada tellus lectus, sed tempor nibh imperdiet sodales.</p>
+						<p>Nulla porta, erat nec rutrum pellentesque, eros lectus condimentum metus, eget tincidunt diam massa ut eros.</p>
+						<p>Sed facilisis turpis magna, et aliquam tellus</p>	
+		        	</section>
+
+					<section class="post-she-said">
+						<p>Phasellus in condimentum dui. Donec malesuada ultricies arcu.</p>
+						<p>Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae.</p>
+						<p>Pellentesque vulputate felis vel mi faucibus porttitor.</p>
+						<p>Sed ac dui quis nisi auctor molestie eu et dui.</p>
+						<p>Proin iaculis mattis nisi id vestibulum.</p>
+						<p>Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
+		        	</section>
 				</div>
 			</div>
-	       	<footer>
-				Copyright © 2014 Joe Bliss
+
+
+			<aside class="clearfix">
+	        	<div class="column">
+	        		<section class="joint-topic">
+	        		<a href="joint-topic-1.html"><h3>Joint-Topic 1</h3></a>
+					<section class="joint-topic-he-said">	
+						<h4>He Said</h4>			
+						<p>Phasellus in condimentum dui.</p>
+						<p>Donec malesuada ultricies arcu.</p>
+						<p>Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae.</p>
+						<p>Pellentesque vulputate felis vel mi faucibus porttitor.</p>
+						<p>Sed ac dui quis nisi auctor molestie eu et dui.</p>
+						<p>Proin iaculis mattis nisi id vestibulum.</p>
+						<p>Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
+					</section>	
+
+		        	<section class="joint-topic-she-said">
+		        		<h4>She Said</h4>
+						<p>Donec eleifend augue mi, nec interdum ante vehicula in.</p>
+						<p>Proin volutpat ante sapien, eget tincidunt augue condimentum vel.</p>
+						<p>Quisque ac imperdiet sem.</p>
+						<p>Ut malesuada tellus lectus, sed tempor nibh imperdiet sodales.</p>
+						<p>Nulla porta, erat nec rutrum pellentesque, eros lectus condimentum metus, eget tincidunt diam massa ut eros.</p>
+						<p>Sed facilisis turpis magna, et aliquam tellus</p> 
+		        	</section>
+		        	</section>
+
+	        		<section class="joint-topic">
+	        		<a href="joint-topic-2.html"><h3>Joint-Topic 2</h3></a>
+					<section class="joint-topic-he-said">	
+						<h4>He Said</h4>			
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Nullam imperdiet vitae leo sed congue.</p>
+						<p>Donec vitae nisi pharetra enim dapibus accumsan.</p>
+						<p>Donec non egestas velit.</p>
+						<p>Mauris sagittis, nisl sed consequat rhoncus, orci ligula porttitor lectus, sed luctus metus libero quis quam.</p>
+						<p>Suspendisse ornare tempus posuere.</p>
+						<p>Maecenas ut diam ut enim interdum tincidunt at ac sapien.</p>
+					</section>	
+
+		        	<section class="joint-topic-she-said">
+		        		<h4>She Said</h4>			
+						<p>Phasellus in condimentum dui.</p>
+						<p>Donec malesuada ultricies arcu.</p>
+						<p>Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae.</p>
+						<p>Pellentesque vulputate felis vel mi faucibus porttitor.</p>
+						<p>Sed ac dui quis nisi auctor molestie eu et dui.</p>
+						<p>Proin iaculis mattis nisi id vestibulum.</p>
+						<p>Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
+		        	</section>
+		        	</section>
+
+	        		<section class="joint-topic">
+	        		<a href="joint-topic-3.html"><h3>Joint-Topic 3</h3></a>
+					<section class="joint-topic-he-said">	
+						<h4>He Said</h4>			
+						<p>Phasellus in condimentum dui.</p>
+						<p>Donec malesuada ultricies arcu.</p>
+						<p>Curabitur blandit imperdiet tortor, a dapibus mauris imperdiet vitae.</p>
+						<p>Pellentesque vulputate felis vel mi faucibus porttitor.</p>
+						<p>Sed ac dui quis nisi auctor molestie eu et dui.</p>
+						<p>Proin iaculis mattis nisi id vestibulum.</p>
+						<p>Curabitur ut est cursus, dignissim risus vel, feugiat dui.</p>
+					</section>	
+
+		        	<section class="joint-topic-she-said">
+		        		<h4>She Said</h4>
+						<p>Donec eleifend augue mi, nec interdum ante vehicula in.</p>
+						<p>Proin volutpat ante sapien, eget tincidunt augue condimentum vel.</p>
+						<p>Quisque ac imperdiet sem.</p>
+						<p>Ut malesuada tellus lectus, sed tempor nibh imperdiet sodales.</p>
+						<p>Nulla porta, erat nec rutrum pellentesque, eros lectus condimentum metus, eget tincidunt diam massa ut eros.</p>
+						<p>Sed facilisis turpis magna, et aliquam tellus</p> 
+		        	</section>
+		        	</section>
+
+				</div>
+			</aside>
+			
+			<footer class="clearfix">
+				&copy; 2015 Rachel Co.
 			</footer>
 		</div>
 	</body>
