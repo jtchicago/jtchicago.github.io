@@ -23,3 +23,38 @@ header {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
+
+footer a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+nav a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+section a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+
+
+a:hover {
+	height: 60px;
+	background-color: gray;
+}

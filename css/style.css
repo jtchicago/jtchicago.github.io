@@ -28,6 +28,10 @@ a {
 
 }
 
+/*a:hover {
+	height: 0px;
+	background: none;
+}*/
 
 
 footer{
@@ -37,6 +41,15 @@ footer{
 	color: rgba(255,255,255,.99);
 	text-align: center;
 	padding: 1em 0;
+}
+
+footer a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
 }
 
 
@@ -62,8 +75,12 @@ nav {
 
 
 nav a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
 	display: block;
-
+	padding: 1em;
+	text-align: center;
+	float: left;
 }
 
 
@@ -72,6 +89,14 @@ section {
 	
 }
 
+section a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
 
 strong {
 	font-size: 1.2em;
@@ -133,6 +158,10 @@ aside {
 
 }
 
+#how-button {
+
+	
+}
 
 #main-nav {
 
@@ -260,6 +289,8 @@ Top half
 	height: 500px;
 	width: 80%;
 }
+
+
 
 
 
