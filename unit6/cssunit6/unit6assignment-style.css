@@ -103,25 +103,41 @@ section a {
 	height: 0;
 }
 
-
-.column-he-said {
+/***********************
+	he/she said
+************************/
+.column-he-said, .column-she-said {
 	width: 50%;
 	float: left;
 }
-
-
-.column-he-said section+section {
-	padding-top: 2em;
-}
-
 .column-she-said {
+	margin-top:5em;
+}
+#head-he-said {
 	width: 50%;
-	float: left;
+	float:left;
+	text-align: center;
+	border-bottom: 2px solid gray;
 }
 
-
-.column-she-said section {
-	padding-top: 3em;
+#head-she-said {
+	width: 50%;
+	float:right;
+	text-align: center;
+	border-bottom: 2px solid gray;
+}
+.post-he-said, .post-she-said {
+	border-radius:.5em;
+	line-height: 1.3em;
+	margin-bottom:1em;
+	padding:2em;
+}
+.post-he-said {
+	background-color:blue;
+	color:#fff;
+}
+.post-she-said {
+	background-color:pink;
 }
 
 .joint-topic {
@@ -177,26 +193,6 @@ section a {
 	text-align: center;
 }
 
-.post-he-said {
-	line-height: 1.3em;
-	font-size: 16px;
-	padding-top: 5%;
-	padding-left: 7%;
-	padding-right: 6%;
-	float: left;
-}
-
-
-.post-she-said {
-	line-height: 1.3em;
-	font-size: 16px;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 7%;
-	float: left;
-}
-
-
 #comments {
 	float: right;
 	padding-right: 1em;
@@ -219,20 +215,6 @@ section a {
 	height: 900px;
 	background: rgb(255,250,242);
 	outline: 10px solid gray;
-}
-
-#head-he-said {
-	width: 50%;
-	float:left;
-	text-align: center;
-	border-bottom: 2px solid gray;
-}
-
-#head-she-said {
-	width: 50%;
-	float:right;
-	text-align: center;
-	border-bottom: 2px solid gray;
 }
 
 #logo {
