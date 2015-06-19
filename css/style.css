@@ -11,6 +11,25 @@ body {
 	margin-left: 0em;
 }
 
+@media only screen and (max-width: 480px) {
+	#how-it-works {
+		float: none;
+		width: auto;
+	}
+	#search {
+		float: none;
+		width: auto;
+	}
+	#popular {
+		float: none;
+		width: auto;
+	}
+	#featured-companies {
+		float: none;
+		width: auto;
+	}
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
