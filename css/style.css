@@ -230,7 +230,12 @@ BOTTOM HALF
 
 }
 
+#popular-list {
+	display: block;
+	font-size: .75em
 
+
+}
 
 
 /***********
