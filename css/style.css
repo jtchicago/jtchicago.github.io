@@ -208,6 +208,7 @@ header {
 	font-weight: 400;
 	height: 150px;
 	letter-spacing: .06em;
+	position: fixed;
 	color: rgba(255,255,255,.99);
 	width: 100%;
 }
@@ -324,20 +325,21 @@ nav a:hover {
 	background-color: rgb(62, 147, 125);
 	border:.2em rgb(62, 147, 125) solid;
 	border-radius:.2em;
+	clear: both;
 	color: rgba(255,255,255,.8);
 	display: block;
 	font-size: 1em;
+	height: 60px;
 	margin: auto;
-	padding: 0 5em 0 5em;
 	text-align:center;
 	text-decoration:none;
+	width: 150px;
 }
 
-#how-it-works{
+/*#how-it-works {
 	clear: both;
 	margin: auto;
-
-}
+}*/
 
 /*#how-block{
 	clear: both;
@@ -352,7 +354,7 @@ nav a:hover {
 
 #search {
 	float: left;
-	font-size: 18px
+	font-size: 18px;
 	margin: auto;
 	padding: 30% 30% 10% 30%;
 	width: 100%;
@@ -365,17 +367,25 @@ nav a:hover {
 	width: 80%;
 }
 
-#search-box{
+input#search-box{
+	border: none;
+	box-sizing: border-box;
 	clear: both;
 	float: left;
-	font-size: 2em;
+	height: 100%;
+	padding: 1em;
 	width: 80%;
 
 }
 
-#search-button{
+input#search-button {
+	background: red;
+	border: none;
+	color: #fff;
 	float: left;
-	font-size: 3em;
+	margin-left: 1%;
+	padding: 1em;
+	width: 19%;
 
 }
 
