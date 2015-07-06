@@ -44,16 +44,6 @@ body {
 
 }
 
-a {
-
-}
-
-/*a:hover {
-	height: 0px;
-	background: none;
-}*/
-
-
 
 footer{
 	clear: both;
@@ -137,6 +127,15 @@ aside {
 
 }
 
+aside>nav>ul>li>a {
+	color: rgba(255,255,255,.99);
+	display: block;
+	float: left;
+	font-family: 'Cambay', sans-serif;
+	font-size: .5em;
+
+}
+
 #ad-block{
 	clear: both;
 
@@ -145,6 +144,7 @@ aside {
 
 #resources{
 	padding-bottom: 2em;
+	color: rgba(255,255,255,.99);
 
 }
 
@@ -271,10 +271,17 @@ header {
 
 }
 
+nav a:hover {
+	height: 30px;
+	background: none;
+}
+
 #nav-links {
 	clear: both;
 	float: right;
-	margin-right: 2em;
+	height: 30px;
+
+	padding: 1em;
 }
 
 #nav-links>a {
@@ -282,7 +289,7 @@ header {
 	float: left;
 	font-family: 'Cambay', sans-serif;
 	font-size: .5em;
-	padding: 1em;
+	padding: .7em;
 }
 
 #newsletter {
@@ -291,15 +298,17 @@ header {
 	float: right;
 	font-family: 'Cambay', sans-serif;
 	font-size: .5em;
-	margin-right: 2em;
+	margin-right: 1em;
+	padding: 1em;
 
 }
 
 #social-media{
 	clear: both;
 	float: right;
-	padding-bottom: 2em;
-	margin-right: 2em;
+	padding: 1em;
+	margin-right: 1em;
+
 }
 
 
@@ -311,17 +320,21 @@ header {
    TOP HALF
 *************/
 
-form {
-
-
+#cta-how {
+	background-color: rgb(62, 147, 125);
+	border:.2em rgb(62, 147, 125) solid;
+	border-radius:.2em;
+	clear: both;
+	color: rgba(255,255,255,.8);
+	display:block;
+	font-size: 1em;
+	margin: auto;
+	padding: 0 5em 0 5em;
+	text-align:center;
+	text-decoration:none;
 }
 
-#how-button {
-
-
-}
-
-#how-it-works{
+/*#how-it-works{
 	background-color: rgb(62, 147, 125);
 	color: rgba(255,255,255,.8);
 	font-family: 'Cambay', sans-serif;
@@ -331,17 +344,17 @@ form {
 	text-align: center;
 	width: 20%;
 
-}
+}*/
 
-#how-block{
+/*#how-block{
 	clear: both;
 	margin: auto;
 	width: 100%;
-}
+}*/
 
-#how-it-works a {
+/*#how-it-works a {
 	font-size: .8em;
-}
+}*/
 
 
 #search {
@@ -379,6 +392,7 @@ form {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 1000px;
+	width: 100%;
 
 }
 
