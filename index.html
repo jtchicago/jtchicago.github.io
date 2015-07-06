@@ -11,49 +11,64 @@
 	</head>
 	
 	<body>
-			<header>
-				<img id="logo" src="images/logo.jpg" alt="logo" title="logo">
-				<h1 id="slogan">Find <span>Something Special.  <em id="fast">Fast</em>.</h1>
-				<p id="tagline">If it's cool, we find it.</p>
-				<!--<p>From Apparel Accessories to Zaxes</p><-->
+		<div id="wrapper">
+			<header class="clearfix">
+				<column class="column-logo-block">
+					<img id="logo-image" src="images/logo.jpg" alt="logo" title="logo">
+				</column>
+				<column class="column-sayings-block">
+					<h1 id="slogan">Find <span>Something Special.  </span><em id="fast">Fast</em>.</h1>
+					<p id="tagline">If it's cool, we find it.</p>
+					<!--<p>From Apparel Accessories to Zaxes</p><-->
+				</column>
+				<column class="column-nav-block">
+					<nav id="nav-links">
+						<a href="about.html">About</a>
+						<a href="account.html">Account</a>
+						<a href="contact.html">Contact <!--(company suggestions, questions, feedback, help, etc.)--></a>
+						<a href="faqs.html">FAQs</a>
+						<!--<a class="nav-links" href="join.html">Join</a>-->
+						<a href="signin.html">Sign In</a>
+					</nav>
+					<form id="newsletter">
+						<label for="email">Newsletter:</label>
+						<input type="email" name="email" placeholder="email address">
+						<input type="submit">
+					</form>
+					<div id="social-media">
+						<a href="#"><img src="images/Facebook.png" alt="facebook" title="facebook"></a>
+						<a href="#"><img src="images/Googleplus.png" alt="googleplus" title="googleplus"></a>
+						<a href="#"><img src="images/Pinterest.png" alt="pinterest" title="pinterest"></a>
+						<a href="#"><img src="images/Stumble-Upon.png" alt="pinterest" title="pinterest"></a>
+						<a href="#"><img src="images/Twitter.png" alt="twitter" title="twitter"></a>
+						<a href="#"><img src="images/Share.png" alt="email" title="email"></a>
+					</div>
+				</column>
 			</header>
 
 
 			<main class="clearfix">
 				<section id="top-half">
-					<section id="how-it-works"><!-- top left. background image with how it works icon linking to explanation-->
-						<p><strong>Frustrated with the same old</strong> products, designs and brands?  Looking for something different?</p>
-						<p>We help you quickly find special, niche and uncommon products from around the world:</p>
-							<!-- link these to company examples<ul>
-								<li>Artisan, Small-Batch or Limited Production</li>
-								<li>Custom Products</li>
-								<li>Environmentally, socially or financially responsible</li>
-								<li>Gifts that are Special, Uncommon or Unique</li>
-								<li>Hard-to-find or discontinued items</li>
-								<li>Innovative Aesthetic and Functional Designs, materials or ingredients</li>
-								<li>International Finds</li>
-								<li>Rare, Scarce, One-of-a-Kind</li>
-								<li>Special Function/ Purpose Products</li>
-								<li>Uncommon, even unique materials, ingredients, colors, etc.</li>
-							</ul>-->
-						<!--<nav>
-							<a href="how-it-works.html"><img id="how-button" src="images/how_this_works.jpg" alt="how this works" title="how_this_works"></a>
-						</nav>-->
-					</section>
 
-					<section id="search"><!-- center screen. search box with optional filters below that users can include -->
-						<form action:"http://placeholderdomain.com...">
-							<input type="text" name="search" placeholder="What would you like?">
-							<input type="submit" value="Search"/>
+					<section id="search-block">
+						<form id="search" action:"http://placeholderdomain.com...">
+							<input id="search-box" type="search" placeholder="What would you like?">
+							<input id="search-button" type="submit" value="Search"/>
 						</form>
-						<!--how to set these up? <p>Optional search inputs (use any/ all) Who?, Why?, Design?, When?, Where?, Functionality?</p>-->
 					</section>
+				
+					<section id="how-block">
+						<div id="how-it-works">
+							<a href="how-it-works.html">How It Works</a>
+						</div>
+					</section>
+						
 				</section>
 
 
 				<section id="bottom-half">
 					<section id="popular"><!-- list of live links to popular search terms/ categories...how to do this?-->
-						<H2>Popular products/ searches/ companies.</h2>
+						<h2>Popular products/ searches/ companies.</h2>
 						<ul id="popular-list">
 							<li><a href="popular-archive.html">Phasellus in condimentum dui</a></li>
 							<li><a href="popular-archive.html">Donec malesuada ultricies arcu</a></li>
@@ -77,9 +92,8 @@
 								<th>Company</th>
 								<th>Search Match</th>
 								<th>Popularity & Comments</th>
-								<th>Products Overview</th>
 								<th>What's Special</th>
-								<th>Other Details (shipping, payment methods, etc.</th>
+								<th>Overview</th>
 								<th>Add Your Comments or Rating</th>
 							</tr>
 							<tr>	
@@ -88,8 +102,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>MassadaEyewear.com</td>
@@ -97,8 +110,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>FetchEyewear.com</td>
@@ -106,8 +118,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>MorgenthalFrederics.com</td>
@@ -115,8 +126,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>SelimaOptique.com</td>
@@ -124,8 +134,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>EyeQGlasses.com</td>
@@ -133,8 +142,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>EyeglassBoy.com</td>
@@ -142,8 +150,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>EyeglassesWarehouse.com</td>
@@ -151,8 +158,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>
 							<tr>	
 								<td>WoodstockEyewear.com</td>
@@ -160,8 +166,7 @@
 								<td>blah, blah</td>
 								<td>blah, blah, blah</td>
 								<td>blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah</td>
-								<td>blah, blah, blah, blah, blah, blah</td>
+								<td>blah, blah, blah, blah</td>
 							</tr>	
 						</table>
 					</section>
@@ -169,33 +174,7 @@
 			</main>
 			
 			<aside>
-			    <nav id="main-nav">
-						<a class="nav-links" href="index.html">Home</a>
-						<a class="nav-links" href="about.html">About</a>
-						<a class="nav-links" href="account.html">Account</a>
-						<a class="nav-links" href="contact.html">Contact (company suggestions, questions, feedback, help, etc.)</a>
-						<a class="nav-links" href="faqs.html">FAQs</a>
-						<a class="nav-links" href="join.html">Join</a>
-						<a class="nav-links" href="signin.html">Sign In/Out</a>
-						<form>
-							<label for="email">Newsletter:</label>
-							<input type="email" name="email" placeholder="email address">
-							<input type="submit">
-					</form>
-				</nav>
-
-				<div id="social-media">
-					<a href="#"><img src="images/Facebook.png" alt="facebook" title="facebook"></a>
-					<a href="#"><img src="images/Googleplus.png" alt="googleplus" title="googleplus"></a>
-					<a href="#"><img src="images/Pinterest.png" alt="pinterest" title="pinterest"></a>
-					<a href="#"><img src="images/Stumble-Upon.png" alt="pinterest" title="pinterest"></a>
-					<a href="#"><img src="images/Twitter.png" alt="twitter" title="twitter"></a>
-					<a href="#"><img src="images/Share.png" alt="email" title="email"></a>
-				</div>
-
-
-
-
+			
 				<nav id="resources"><!-- horizontal tabs ala overlapping manilla folder tabs -->
 					<p>Resources</p>
 					<ul>
@@ -238,6 +217,6 @@
 			</section>
 			-->
 
-
+		</div>
 	</body>
 </html>

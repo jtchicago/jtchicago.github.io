@@ -39,6 +39,11 @@ body {
   height: 0;
 }
 
+#wrapper {
+	background-color: rgb(0,62,89);
+
+}
+
 a {
 
 }
@@ -48,11 +53,7 @@ a {
 	background: none;
 }*/
 
-ad-block {
-	clear: both;
-	color: yellow;
-	float: left;
-}
+
 
 footer{
 	clear: both;
@@ -87,37 +88,14 @@ h4 {
 	font-style: italic;
 }
 
-header {
-	background-color: rgb(0,62,89);
-	font-family: 'Cambay', sans-serif;
-	font-size: 1.4em;
-	font-weight: 400;
-	letter-spacing: .06em;
-	color: rgba(255,255,255,.99);
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
+
+
+
 
 main {
 	width: 80%;
 	float: left;
 }
-
-nav {
-
-
-}
-
-
-nav a {
-	color: rgba(255,255,255,.850);
-	text-decoration: none;
-	display: block;
-	padding: 1em;
-	text-align: center;
-	float: left;
-}
-
 
 section {
 	
@@ -143,8 +121,14 @@ strong {
 	ASIDE
 ***********/
 
+ad-block {
+	clear: both;
+	color: yellow;
+	float: left;
+}
+
 aside {
-	background-color: gray;
+	background-color: rgb(0,62,89);
 	float: right;
 	display: block;
 	padding: 2em;
@@ -153,49 +137,24 @@ aside {
 
 }
 
-
-.nav-links{
-	
-}
-
-.nav-links a {
-
-
-}
-
 #ad-block{
 	clear: both;
 
 }
 
-#contact{
-
-}
-
-#social-media{
-	padding-bottom: 2em;
-
-}
-
-#how-button {
-
-
-}
-
-#main-nav {
-
-	padding-top: 1em;
-	padding-bottom: 2em;
-
-}
-
 
 #resources{
-	
 	padding-bottom: 2em;
 
 }
 
+#resources>a{
+	color: rgba(255,255,255,.99);
+	float: left;
+	font-family: 'Cambay', sans-serif;
+	font-size: .5em;
+
+}
 
 
 /***********
@@ -238,31 +197,57 @@ BOTTOM HALF
 }
 
 
-/***********
-Header
-***********/
+/*************
+    HEADER
+*************/
 
+header {
+	background-color: rgb(0,62,89);
+	font-family: 'Cambay', sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	height: 150px;
+	letter-spacing: .06em;
+	color: rgba(255,255,255,.99);
+	width: 100%;
+}
 
 #fast{
 	font-style: italic;
 }
 
 
-#logo{
-	display: block;
+.column-logo-block{
 	float: left;
-	margin: auto;
-	padding-left: .5em;
-	
+	height: 100%;
+	width: 33.33%;
 }
 
-#slogan{
+.column-sayings-block {
+	float: left;
+	height:100%;
 	text-align: center;
-	padding-bottom: .3em;
+	width: 33.33%;
+}
+
+#logo-image{
+	float: left;
+	padding: 1em;
+	width: 40%;
+}
+
+
+
+#slogan{
+	clear: both;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: .5em;
 }
 
 
 #tagline{
+	clear: both;
 	font-size: 18px;
 	font-style: italic;
 	text-align: center;
@@ -270,47 +255,131 @@ Header
 }
 
 
+/****************
+	NAVIGATION
+****************/
 
-/***********
-Top half
-***********/
 
-#how-button{
+#contact{
+
+}
+
+.column-nav-block {
+	float: left;
+	height: 100%;
+	width: 33.33%;
+
+}
+
+#nav-links {
+	clear: both;
+	float: right;
+	margin-right: 2em;
+}
+
+#nav-links>a {
+	color: rgba(255,255,255,.99);
+	float: left;
+	font-family: 'Cambay', sans-serif;
+	font-size: .5em;
+	padding: 1em;
+}
+
+#newsletter {
+	clear: both;
+	color: rgba(255,255,255,.99);
+	float: right;
+	font-family: 'Cambay', sans-serif;
+	font-size: .5em;
+	margin-right: 2em;
+
+}
+
+#social-media{
+	clear: both;
+	float: right;
+	padding-bottom: 2em;
+	margin-right: 2em;
+}
+
+
+
+
+
+
+/*************
+   TOP HALF
+*************/
+
+form {
 
 
 }
 
+#how-button {
+
+
+}
 
 #how-it-works{
-	background: url(../images/needle_in_a_haystack.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: justify;
-	padding: 2em;
-	height: 100%;
-	width: 40%;
-	float: left;
-}
-
-#how-it-works img{
+	background-color: rgb(62, 147, 125);
+	color: rgba(255,255,255,.8);
+	font-family: 'Cambay', sans-serif;
+	font-size: 1em;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+	width: 20%;
 
 }
 
+#how-block{
+	clear: both;
+	margin: auto;
+	width: 100%;
+}
 
-#search{
-	background-image: url(../images/sky_background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 7em;
-	height: 100%;
-	width: 60%;
+#how-it-works a {
+	font-size: .8em;
+}
+
+
+#search {
 	float: left;
+	font-size: 18px
+	margin: auto;
+	padding: 30% 30% 10% 30%;
+	width: 100%;
+
+
+}
+
+#search-block{
+	margin: auto;
+	width: 80%;
+}
+
+#search-box{
+	clear: both;
+	float: left;
+	font-size: 2em;
+	width: 80%;
+
+}
+
+#search-button{
+	float: left;
+	font-size: 3em;
 
 }
 
 
 #top-half {
-	height: 500px;
+	background-image: url(../images/DeathtoStock_Wired7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+
 }
 
 
@@ -328,46 +397,3 @@ https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
 	clear: both;
 }*/
 
-/*#signup-launch{
-
-}
-
-
-#signup-confirmation{
-
-}*/
-
-/*.centered-images{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-*/
-
-
-/*
-h1, h2 {
-  background-color: blue;
-}
-
-p {
-  background-color: red;
-}
-
-ul {
- background-color: purple;
- display:inline;
-}
-
-li {
- background-color: purple;
- display:inline;
-}
-
-a {
-  background-color: yellow;
-}
-
-strong, em {
-  background-color: orange;
-}
-*/

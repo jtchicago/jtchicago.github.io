@@ -1,0 +1,364 @@
+* { margin:0; padding:0; box-sizing: border-box; }
+body {
+	/*background: url(../images/needle_in_a_haystack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	font-family: calibri, arial, monospace;
+	font-size: 18px;
+	font-weight: 100;
+	color: rgb(0,0,0);
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+@media only screen and (max-width: 480px) {
+	#how-it-works {
+		float: none;
+		width: auto;
+	}
+	#search {
+		float: none;
+		width: auto;
+	}
+	#popular {
+		float: none;
+		width: auto;
+	}
+	#featured-companies {
+		float: none;
+		width: auto;
+	}
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+a {
+
+}
+
+/*a:hover {
+	height: 0px;
+	background: none;
+}*/
+
+ad-block {
+	clear: both;
+	color: yellow;
+	float: left;
+}
+
+footer{
+	clear: both;
+	background-color: rgb(0,62,89);
+	font-size: 12px;
+	color: rgba(255,255,255,.99);
+	text-align: center;
+	padding: 1em 0;
+}
+
+footer a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+
+h2 {
+	font-size: 1.5em;
+}
+
+
+h3 {
+	font-size: 1.5em;
+}
+
+
+h4 {
+	font-style: italic;
+}
+
+header {
+	background-color: rgb(0,62,89);
+	font-family: 'Cambay', sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	letter-spacing: .06em;
+	color: rgba(255,255,255,.99);
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+main {
+	width: 80%;
+	float: left;
+}
+
+nav {
+
+
+}
+
+
+nav a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+
+section {
+	
+	
+}
+
+section a {
+	color: rgba(255,255,255,.850);
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	float: left;
+}
+
+strong {
+	font-size: 1.2em;
+	font-variant: small-caps;
+}
+
+
+/***********
+	ASIDE
+***********/
+
+aside {
+	background-color: gray;
+	float: right;
+	display: block;
+	padding: 2em;
+	width: 20%;
+	height: 1000px
+
+}
+
+
+.nav-links{
+	
+}
+
+.nav-links a {
+
+
+}
+
+#ad-block{
+	clear: both;
+
+}
+
+#contact{
+
+}
+
+#social-media{
+	padding-bottom: 2em;
+
+}
+
+#how-button {
+
+
+}
+
+#main-nav {
+
+	padding-top: 1em;
+	padding-bottom: 2em;
+
+}
+
+
+#resources{
+	
+	padding-bottom: 2em;
+
+}
+
+
+
+/***********
+BOTTOM HALF
+***********/
+
+
+#bottom-half {
+	height: 500px;
+
+}
+
+
+#featured-companies{
+	background-color: rgb(62, 147, 125);
+	text-align: justify;
+	padding: 1em;
+	height: 100%;
+	width: 70%;
+	float: left;
+
+}
+
+
+#popular{
+	background: rgb(30, 240, 150);
+	padding: 1em;
+	text-align: justify;
+	height: 100%;
+	width: 30%;
+	float: left;
+
+}
+
+#popular-list {
+	display: block;
+	font-size: .75em
+
+
+}
+
+
+/***********
+Header
+***********/
+
+
+#fast{
+	font-style: italic;
+}
+
+
+#logo{
+	display: block;
+	float: left;
+	margin: auto;
+	padding-left: .5em;
+	
+}
+
+#slogan{
+	text-align: center;
+	padding-bottom: .3em;
+}
+
+
+#tagline{
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+
+
+/***********
+Top half
+***********/
+
+#how-button{
+
+
+}
+
+
+#how-it-works{
+	background: url(../images/needle_in_a_haystack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: justify;
+	padding: 2em;
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+
+#how-it-works img{
+
+}
+
+
+#search{
+	background-image: url(../images/sky_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 7em;
+	height: 100%;
+	width: 60%;
+	float: left;
+
+}
+
+
+#top-half {
+	height: 500px;
+}
+
+
+
+
+
+
+https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
+
+/*.clearfix{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}*/
+
+/*#signup-launch{
+}
+#signup-confirmation{
+}*/
+
+/*.centered-images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+*/
+
+
+/*
+h1, h2 {
+  background-color: blue;
+}
+p {
+  background-color: red;
+}
+ul {
+ background-color: purple;
+ display:inline;
+}
+li {
+ background-color: purple;
+ display:inline;
+}
+a {
+  background-color: yellow;
+}
+strong, em {
+  background-color: orange;
+}
+*/
