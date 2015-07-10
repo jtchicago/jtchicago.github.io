@@ -4,16 +4,6 @@ body {
   font-size: 16px;
 }
 
-.column-sayings-block {
-font-size: .8em;
-}
-
-#top-half {
-  font-size: .8em;
-}
-
-
-
 }
 
 
@@ -25,6 +15,7 @@ body {
 
 .column-sayings-block {
   display: none;
+  float: none;
 }
 
 }
@@ -37,12 +28,15 @@ body {
   font-size: 14px;
 }
 
+.column-sayings-block {
+  display: none;
+  float: none;
+}
+
 #nav-links>a {
   display: block;
   float: none;
-  font-size: .5em;
   padding: .3em;
-  text-decoration: none;
 }
 
   }
