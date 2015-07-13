@@ -9,6 +9,22 @@ body {
 }
 
 
+Don't set % in padding.  Only use em widths for padding and use % for containers
+use flat icons and put more space below them (put them above the nav links)
+set logo 100-200px and use ems
+% are are best columns and image widths.  Be wary using %s when dealing with the whole screen
+Don't have a height on CTA button.  Use padding instead
+Search bar- set at 20em etc., instad of using padding in the form
+Make search block 100% and don't need to give the search box a width then
+set hieght on top section using viewport height (height: 100vh).  Then, position absolute on footer.
+
+
+
+
+
+
+
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -32,6 +48,9 @@ footer{
 	color: rgba(255,255,255,.99);
 	text-align: center;
 	padding: 1em 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 footer a {
@@ -69,6 +88,7 @@ main {
 
 section {
 	width: 100%;
+
 	
 }
 
@@ -184,6 +204,7 @@ BOTTOM HALF
 
 header {
 	background-color: rgb(0,62,89);
+	background-position: center;
 	font-family: 'Cambay', sans-serif;
 	font-size: 1.4em;
 	font-weight: 400;
@@ -316,7 +337,7 @@ nav a:hover {
 	margin: auto;
 	text-align:center;
 	text-decoration:none;
-	width: 10%;
+	width: 10em;
 }
 
 /*#how-it-works {
@@ -347,7 +368,7 @@ nav a:hover {
 
 #search-block{
 	margin: auto;
-	width: 80%;
+
 }
 
 input#search-box{
@@ -358,9 +379,12 @@ input#search-box{
 	font-size: 1em;
 	height: 100%;
 	padding: 1em;
-	width: 80%;
-
+	width: 20em;
 }
+
+margin left 1em
+then set width of whole search block to be total of search area, marging and button
+Can make search 100% below a certain size
 
 input#search-button {
 	background-color: rgb(0,62,89);
@@ -368,9 +392,9 @@ input#search-button {
 	color: #fff;
 	float: left;
 	font-size: 1em;
-	margin-left: 1%;
+	margin-left: .5em;
 	padding: 1em;
-	width: 19%;
+	width: 10em;
 
 }
 
@@ -379,7 +403,7 @@ input#search-button {
 	background-image: url(../images/DeathtoStock_Wired7.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1000px;
+	height: 100vh
 	width: 100%;
 
 }

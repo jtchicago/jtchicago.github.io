@@ -45,7 +45,12 @@ body {
 
 
 @media only screen and (max-width:480px) {
-  body {
+  body 
+
+.column-sayings-block {
+  display: none;
+  float: none;
+
   font-size: 13px;
 }
 
