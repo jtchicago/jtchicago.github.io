@@ -1,4 +1,14 @@
 
+Unit 6-  Floats & Clears
+
+.article {
+ width: 280px;
+ padding: 10px;
+ margin: 0 10px;
+ float: left;
+ }
+
+ 
           <ul><!-- links horizontal -->
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -8,7 +18,7 @@
           <li><a href="join.html">Join</a></li>
           <li><a href="signin.html">Sign In/Out</a></li>
         </ul>
-        
+
 
 Unit 5- layouts
 
