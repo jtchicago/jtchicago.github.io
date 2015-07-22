@@ -23,12 +23,6 @@ remove left and right padding
 */
 
 
-
-
-
-
-
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -43,7 +37,6 @@ remove left and right padding
 	width: 100%;
 
 }
-
 
 footer{
 	clear: both;
@@ -66,21 +59,17 @@ footer a {
 	float: left;
 }
 
-
 h2 {
 	font-size: 1.5em;
 }
-
 
 h3 {
 	font-size: 1.5em;
 }
 
-
 h4 {
 	font-style: italic;
 }
-
 
 main {
 	float: left;
@@ -110,12 +99,10 @@ strong {
 BOTTOM HALF
 ***********/
 
-
 #bottom-half {
 	height: 500px;
 
 }
-
 
 #featured-companies{
 	background-color: rgb(62, 147, 125);
@@ -126,7 +113,6 @@ BOTTOM HALF
 	float: left;
 
 }
-
 
 #popular{
 	background: rgb(30, 240, 150);
@@ -200,7 +186,6 @@ header {
 	NAVIGATION
 ****************/
 
-
 #contact{
 
 }
@@ -258,10 +243,6 @@ nav a:hover {
 }
 
 
-
-
-
-
 /*************
    TOP HALF
 *************/
@@ -282,7 +263,6 @@ nav a:hover {
 	width: 10em;
 }
 
-
 #search-block{
 	display: block;
 	margin: auto;
@@ -291,7 +271,6 @@ nav a:hover {
 	transform: translateY(-50%, -50%);
 	width: 31em;
 }
-
 
 input#search-box{
 	border: none;
@@ -303,10 +282,6 @@ input#search-box{
 	padding: 1em;
 	width: 20em;
 }
-
-/*margin left 1em
-then set width of whole search block to be total of search area, margin and button
-Can make search 100% below a certain size*/
 
 input#search-button {
 	background-color: rgb(0,62,89);
@@ -320,7 +295,6 @@ input#search-button {
 
 }
 
-
 #top-half {
 	background-image: url(../images/DeathtoStock_Wired7.jpg);
 	background-repeat: no-repeat;
@@ -330,18 +304,5 @@ input#search-button {
 
 }
 
-
-
-
-
-
 https://github.com/jhumbrac/jhumbrac.github.io/blob/master/test/clear.css
-
-/*.clearfix{
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
-}*/
 
