@@ -202,15 +202,13 @@ nav {
 }
 
 nav a:hover {
-	height: 30px;
 	background: rgb(62, 147, 125);
 }
 
 #nav-links {
 	clear: both;
 	float: right;
-	height: 30px;
-	padding: 1em;
+	padding: .3em;
 }
 
 #nav-links>a {
@@ -230,7 +228,7 @@ nav a:hover {
 	font-family: 'Cambay', sans-serif;
 	font-size: .8em;
 	margin-right: 1em;
-	padding-top: 2em;
+	margin-top: 1em;
 
 }
 
@@ -255,7 +253,7 @@ nav a:hover {
 	color: rgba(255,255,255,.8);
 	display: block;
 	font-size: 1em;
-	height: 60px;
+
 	margin: auto;
 	margin-top: 10em;
 	text-align:center;
@@ -268,7 +266,8 @@ nav a:hover {
 	margin: auto;
 	position: absolute;
 	top:50%;
-	transform: translateY(-50%, -50%);
+	transform: translate(-50%, -50%);
+	left: 50%;
 	width: 31em;
 }
 

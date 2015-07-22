@@ -41,10 +41,10 @@ body {
 
 
 
-@media only screen and (min-width:850px) and (max-width:1060px) {
+@media only screen and (min-width:900px) and (max-width:1060px) {
 
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .column-sayings-block {
@@ -87,10 +87,10 @@ label {
   }
 
 
-@media only screen and (min-width:481px) and (max-width:850px) {
+@media only screen and (min-width:481px) and (max-width:900px) {
 
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .column-nav-block {
@@ -108,7 +108,6 @@ body {
 header {
   height: 100px;
 }
-
 
 #logo-image{
   float: left;
@@ -144,7 +143,7 @@ header {
   body 
 
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .column-nav-block {
@@ -176,7 +175,7 @@ header {
   display: inline;
   float: none;
   font-size: .6em;
-  padding: .3em;
+  padding: .1em;
 }
 
 #newsletter {
@@ -184,7 +183,27 @@ header {
   float: none;
 }
 
+
+#cta-how {
+  height: 40px;
+  width: 10em;
+}
+
+#search-block{
+  width: 22em;
+}
+
+input#search-box{
+  width: 15em;
+}
+
+input#search-button {
+  width: 6em;
   }
 
+#social-media{
+display: inline;
+}
 
+}
 
