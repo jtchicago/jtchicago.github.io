@@ -82,18 +82,13 @@ h4 {
 }
 
 
-
-
-
 main {
-	width: 100%;
 	float: left;
+	width: 100%;
 }
 
 section {
 	width: 100%;
-
-	
 }
 
 section a {
@@ -109,57 +104,6 @@ strong {
 	font-size: 1.2em;
 	font-variant: small-caps;
 }
-
-
-/***********
-	ASIDE
-***********/
-
-/*ad-block {
-	clear: both;
-	color: yellow;
-	float: left;
-}
-
-aside {
-	background-color: rgb(0,62,89);
-	float: right;
-	display: block;
-	padding: 2em;
-	width: 20%;
-	height: 1000px
-
-}
-
-aside>nav>ul>li>a {
-	color: rgba(255,255,255,.99);
-	display: block;
-	float: left;
-	font-family: 'Cambay', sans-serif;
-	font-size: .5em;
-
-}
-
-#ad-block{
-	clear: both;
-
-}
-
-
-#resources{
-	padding-bottom: 2em;
-	color: rgba(255,255,255,.99);
-
-}
-
-#resources>a{
-	color: rgba(255,255,255,.99);
-	float: left;
-	font-family: 'Cambay', sans-serif;
-	font-size: .5em;
-
-}*/
-
 
 
 /***********
@@ -210,7 +154,7 @@ header {
 	background-color: rgb(0,62,89);
 	background-position: center;
 	font-family: 'Cambay', sans-serif;
-	font-size: 1.4em;
+	font-size: 1em;
 	font-weight: 400;
 	height: 150px;
 	letter-spacing: .06em;
@@ -238,7 +182,8 @@ header {
 
 #logo-image{
 	float: left;
-	width: 30%;
+	width: 200px;
+	height: 125px;
 	padding: 1em;
 
 }
@@ -246,16 +191,8 @@ header {
 #slogan{
 	clear: both;
 	text-align: center;
-	padding-top: 1em;
+	padding-top: 1.5em;
 	padding-bottom: .5em;
-}
-
-#tagline{
-	clear: both;
-	font-size: .8em;
-	font-style: italic;
-	text-align: center;
-	padding-bottom: 1em;
 }
 
 
@@ -296,7 +233,7 @@ nav a:hover {
 	display: block;
 	float: left;
 	font-family: 'Cambay', sans-serif;
-	font-size: .5em;
+	font-size: .8em;
 	padding: .7em;
 	text-decoration: none;
 }
@@ -306,9 +243,9 @@ nav a:hover {
 	color: rgba(255,255,255,.99);
 	float: right;
 	font-family: 'Cambay', sans-serif;
-	font-size: .5em;
+	font-size: .8em;
 	margin-right: 1em;
-	padding: 1em;
+	padding-top: 2em;
 
 }
 
@@ -339,40 +276,22 @@ nav a:hover {
 	font-size: 1em;
 	height: 60px;
 	margin: auto;
+	margin-top: 10em;
 	text-align:center;
 	text-decoration:none;
 	width: 10em;
 }
 
-/*#how-it-works {
-	clear: both;
-	margin: auto;
-}*/
-
-/*#how-block{
-	clear: both;
-	margin: auto;
-	width: 100%;
-}*/
-
-/*#how-it-works a {
-	font-size: .8em;
-}*/
-
-
-#search {
-	/*can remove  font-size: 1em;
-	margin: auto;
-	width: 30.5em;*/
-
-}
 
 #search-block{
+	display: block;
 	margin: auto;
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%, -50%);
+	width: 31em;
 }
+
 
 input#search-box{
 	border: none;
@@ -386,7 +305,7 @@ input#search-box{
 }
 
 /*margin left 1em
-then set width of whole search block to be total of search area, marging and button
+then set width of whole search block to be total of search area, margin and button
 Can make search 100% below a certain size*/
 
 input#search-button {

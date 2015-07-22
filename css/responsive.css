@@ -1,44 +1,141 @@
-@media only screen and (min-width:1201px) and (max-width:1450px) {
-
-body {
-  font-size: 16px;
-}
-
-}
-
-
-@media only screen and (min-width:769px) and (max-width:1200px) {
+@media only screen and (min-width:1201px) and (max-width:1535px) {
 
 body {
   font-size: 16px;
 }
 
 .column-sayings-block {
-  display: none;
-  float: none;
+  font-size: .8em;
+}
+
+#logo-image{
+  float: left;
+  width: 160px;
+  height: 100px;
+  padding: 1em;
+
+}
+
+}
+
+
+@media only screen and (min-width:1060px) and (max-width:1200px) {
+
+body {
+  font-size: 16px;
+}
+
+.column-sayings-block {
+  font-size: .7em;
+}
+
+#logo-image{
+  float: left;
+  width: 108px;
+  height: 80px;
+  padding: 1em;
+
 }
 
 }
 
 
 
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:850px) and (max-width:1060px) {
 
 body {
   font-size: 14px;
 }
 
 .column-sayings-block {
+  font-size: .6em;
+}
+
+header {
+  height: 100px;
+}
+
+label {
   display: none;
   float: none;
 }
 
+#logo-image{
+  float: left;
+  width: 108px;
+  height: 80px;
+  padding: 1em;
+
+}
+
 #nav-links>a {
-  display: block;
+  display: inline;
   float: none;
   padding: .3em;
 }
 
+
+#newsletter {
+   padding-top: 1em;
+}
+
+#social-media{
+  margin-right: .5em;
+
+}
+
+  }
+
+
+@media only screen and (min-width:481px) and (max-width:850px) {
+
+body {
+  font-size: 14px;
+}
+
+.column-nav-block {
+  float: right;
+  height: 100%;
+  width: 66.66%;
+
+}
+
+.column-sayings-block {
+  display: none;
+  float: none;
+}
+
+header {
+  height: 100px;
+}
+
+
+#logo-image{
+  float: left;
+  width: 108px;
+  height: 80px;
+  padding: 1em;
+
+}
+
+#nav-links>a {
+  display: inline;
+  float: none;
+  font-size: .7em;
+  padding: .3em;
+}
+
+#newsletter {
+  display: none;
+  float: none;
+}
+
+
+#social-media{
+  padding: 1em;
+  margin-right: 1em;
+
+}
   }
 
 
@@ -47,195 +144,48 @@ body {
 @media only screen and (max-width:480px) {
   body 
 
+body {
+  font-size: 14px;
+}
+
+.column-nav-block {
+  float: right;
+  height: 100%;
+  width: 66.66%;
+
+}
+
 .column-sayings-block {
   display: none;
   float: none;
+}
 
-  font-size: 13px;
+header {
+  height: 100px;
+}
+
+
+#logo-image{
+  float: left;
+  width: 108px;
+  height: 80px;
+  padding: 1em;
+
+}
+
+#nav-links>a {
+  display: inline;
+  float: none;
+  font-size: .6em;
+  padding: .3em;
+}
+
+#newsletter {
+  display: none;
+  float: none;
 }
 
   }
 
 
 
-/*header {
-  height: 125px;
-  font-size: 1em;
-}
-
-#tagline{
-  font-size: 14px;
-}
-
-#cta-how {
-  font-size: .8em;
-  height: 50px;
-  width: 125px;
-}
-
-#search {
-  font-size: .8em;
-}
-
-input#search-box{
-  font-size: .8em;
-}
-
-input#search-button {
-  font-size: 14px;
-}
-
-}*/
-
-
-
-/*@media only screen and (min-width:1045px) and (max-width:1299px) {
-
-
-
-  }
-
-}*/
-
-
-/*@media only screen and (min-width:962px) and (max-width:1044px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-
-
-}
-
-
-@media only screen and (min-width:700px) and (max-width:961px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-
-
-}
-
-
-@media only screen and (max-width:699px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-
-
-}*/
-
-
-
-
-
-
-
-
-/*@media only screen and (min-width:1261px) and (max-width:1380px) {
-  section#splash div {
-    padding:15em 0 0 5em;
-  }
-}
-@media only screen and (min-width:1045px) and (max-width:1260px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-}
-@media only screen and (min-width:962px) and (max-width:1044px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-  h1 {
-    font-size:5em;
-  }
-  .columns {
-    margin-bottom:5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:50%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:50%;
-  }
-}
-@media only screen and (min-width:700px) and (max-width:961px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-  h1 {
-    font-size:5em;
-  }
-  .columns {
-    margin-bottom:5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:50%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:50%;
-  }
-  section#cast .players {
-    float:none;
-    margin:1em auto;
-    text-align:left;
-    width:75%;
-  }
-  blockquote {
-    padding:2em;
-    width:100%;
-  }
-  blockquote:before {
-    position:absolute;
-    left:10px;
-    top:10px;
-  }
-}
-@media only screen and (max-width:699px) {
-  section#splash div {
-    padding:15em 0 0 1em;
-  }
-  h1 {
-    font-size:5em;
-  }
-  .columns {
-    float:none;
-    margin:0 auto 5em;
-    min-height:18em;
-    padding:0 2em;
-    position:relative;
-    width:90%;
-  }
-  .cta2 {
-    position:absolute;
-    bottom:0;
-  }
-  #video>div {
-    width:100%;
-  }
-  section#cast .players {
-    float:none;
-    margin:1em auto;
-    text-align:left;
-    width:90%;
-  }
-  blockquote {
-    padding:2em;
-    width:100%;
-  }
-}
-  blockquote:before {
-    position:absolute;
-    left:10px;
-    top:10px;
-  }
-}*/
