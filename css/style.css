@@ -137,8 +137,8 @@ BOTTOM HALF
 *************/
 
 header {
-	background-color: #120C4F;
-	/*background-color: gray;*/
+	/*background-color: #120C4F;*/
+	background-color: gray;
 	background-position: center;
 	font-family: 'Cambay', sans-serif;
 	font-size: 1em;
